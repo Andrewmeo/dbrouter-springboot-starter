@@ -1,6 +1,6 @@
 package com.bree.dbrouter.aspect;
 
-import com.bree.dbrouter.DBRouterConfig;
+import com.bree.dbrouter.config.DBRouterConfig;
 import com.bree.dbrouter.annotation.DBRouter;
 import com.bree.dbrouter.strategy.IDBRouterStrategy;
 import org.apache.commons.beanutils.BeanUtils;

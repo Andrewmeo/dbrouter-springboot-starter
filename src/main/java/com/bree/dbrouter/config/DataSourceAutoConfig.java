@@ -1,6 +1,5 @@
 package com.bree.dbrouter.config;
 
-import com.bree.dbrouter.DBRouterConfig;
 import com.bree.dbrouter.dynamicSource.DynamicDataSource;
 import com.bree.dbrouter.interceptor.DynamicMybatisPlugin;
 import com.bree.dbrouter.strategy.IDBRouterStrategy;
@@ -139,7 +138,7 @@ public class DataSourceAutoConfig implements EnvironmentAware {
      */
     @Override
     public void setEnvironment(Environment environment) {
-        String prefix = "xhy-db-router.jdbc.datasource.";
+        String prefix = "db-router.jdbc.datasource.";
 
         dbCount = Integer.valueOf(environment.getProperty(prefix + "dbCount")); // 有多少个数据库
         tbCount = Integer.valueOf(environment.getProperty(prefix + "tbCount")); // 有多少张数据库表

@@ -1,4 +1,4 @@
-package com.bree.dbrouter;
+package com.bree.dbrouter.config;
 
 /**
  * 数据路由配置

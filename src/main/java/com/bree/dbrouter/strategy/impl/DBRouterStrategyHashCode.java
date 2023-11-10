@@ -1,12 +1,10 @@
 package com.bree.dbrouter.strategy.impl;
 
-import com.bree.dbrouter.DBRouterConfig;
+import com.bree.dbrouter.config.DBRouterConfig;
 import com.bree.dbrouter.strategy.IDBRouterStrategy;
 import com.bree.dbrouter.context.DBContextHolder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.util.HashMap;
 
 /**
  * 哈希路由
